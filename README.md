@@ -165,7 +165,7 @@ exit 0
 
 ## get cert
 ```
-su -s /bin/bash -c '/opt/sslcert/bin/getcert.sh' sslcert
+su -s /bin/bash -c 'bash /opt/sslcert/bin/getcert.sh' sslcert
 ```
 
 ## final nginx ssl conf
