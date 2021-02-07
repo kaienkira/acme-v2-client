@@ -208,7 +208,7 @@ server {
     ssl_dhparam /etc/ssl/private/dhparams.pem;
 }
 
-service nginx reload
+systemctl reload nginx
 ```
 
 ## set crontab task to renew cert (run every week)
