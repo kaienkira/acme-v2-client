@@ -134,7 +134,7 @@ server {
     }
 }
 
-service nginx reload
+systemctl reload nginx
 ```
 
 ## create a wrap script
