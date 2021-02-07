@@ -160,6 +160,7 @@ cp /opt/sslcert/certs/domain.crt.new \
 
 rm -f -- /opt/sslcert/acme-challenge/*
 
+exit 0
 ```
 
 ## get cert
