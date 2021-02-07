@@ -102,7 +102,7 @@ mkdir /opt/sslcert/keys
 mkdir /opt/sslcert/certs
 mkdir /opt/sslcert/acme-challenge
 
-cp acme-client.php /opt/sslcert/bin
+cp acme-v2-client.php /opt/sslcert/bin
 mv account.key /opt/sslcert/keys
 mv domain.csr /opt/sslcert/keys
 mv domain.key /etc/ssl/private
